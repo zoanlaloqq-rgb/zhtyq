@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9; /* 浅灰背景，确保显示 */
+    color: #333;
+}
+
+header {
+    background-color: #ffd700; /* 金黄色，象征忠诚 */
+    padding: 20px;
+    text-align: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo img {
+    width: 100px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+#hero {
+    background-color: #8b4513; /* 棕色，象征土狗 */
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+#hero button {
+    background-color: #ffd700;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* 添加响应式设计，确保在手机上背景正常显示 */
+@media (max-width: 768px) {
+    #hero {
+        padding: 30px;
+    }
+    
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
